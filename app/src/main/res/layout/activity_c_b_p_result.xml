@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CBPResult">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/choiceIMG"
+                android:src="@drawable/cbplogo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="7dp"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:fontFamily="@font/alef"
+                android:text="Business Information"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/name"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Name_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/description"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Description_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/address"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                android:id="@+id/openMap"
+                />
+
+            <TextView
+                android:id="@+id/business_Address_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/municipal"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Municipal_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="7dp"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/time"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Time_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/contact"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Contact_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/website"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Website_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/facebook"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Facebook_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/insta"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Insta_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            >
+
+            <ImageView
+                android:src="@drawable/announcement"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/business_Announcement_Result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Information"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            >
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

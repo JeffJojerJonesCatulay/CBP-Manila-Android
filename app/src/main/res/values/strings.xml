@@ -1,0 +1,49 @@
+<resources>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="app_name">CBP Manila</string>
+    <string name="com">Commercial</string>
+    <string name="food">Food</string>
+    <string name="furniture">Furniture</string>
+    <string name="hardware">Hardware</string>
+    <string name="mall">Mall</string>
+    <string name="pet">Pet Shop</string>
+    <string name="salon">Salon</string>
+    <string name="store">Store</string>
+    <string name="water">Water</string>
+
+    <string name="noFilter">No Filter</string>
+    <string name="binondo">Binondo</string>
+    <string name="ermita">Ermita</string>
+    <string name="intramuros">Intramuros</string>
+    <string name="sampaloc">Sampaloc</string>
+    <string name="paco">Paco</string>
+    <string name="pandacan">Pandacan</string>
+    <string name="portArea">Port Area</string>
+    <string name="quiapo">Quiapo</string>
+    <string name="malate">Malate</string>
+    <string name="sanAndres">San Andres</string>
+    <string name="sanMiguel">San Miguel</string>
+    <string name="sanNicholas">San Nicolas</string>
+    <string name="stAna">Sta Ana</string>
+    <string name="stCruz">Sta Cruz</string>
+    <string name="stMesa">Santa Mesa</string>
+    <string name="tondo">Tondo</string>
+
+    <string name="businessNum">50 Business</string>
+    <string name="res">Result</string>
+
+    <string name="info">
+            The researchers intent to aid this dilemma that this
+    pandemic bring by having a system wherein they made a centralized
+    business portal for manila city that mainly focused on providing information
+    about certain businesses that can offer their services in the community
+    during this period.
+            This system will help the user find the nearest shops
+    quickly as well as the basic details of the shop (e.g. opening/closing time,
+    services/product, website page, social media account) The user can select
+    the location as long as it is along manila area. The user of the system may
+    search what services or product they are looking for or even the name of
+    the establishment itself.
+    </string>
+
+</resources>

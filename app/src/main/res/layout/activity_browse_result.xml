@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BrowseResult">
+
+    <ImageView
+        android:id="@+id/choiceIMG"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="7dp"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alef"
+            android:text="Filter Places: "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/municipalities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/searchOption"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Search"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alef"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/browseRES"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
